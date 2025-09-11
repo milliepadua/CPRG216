@@ -3,3 +3,4 @@ y = 4
 z = x+y
 
 print("The result is", z)
+print (x)
