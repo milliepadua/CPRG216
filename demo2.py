@@ -44,7 +44,7 @@ a = 3+4
 b = 4-3
 c = 4*3
 d = 3/4
-d_ = 3//4 #floor division; smaller value
+d_ = 3//4 #floor division; smaller value; round up the answer
 e = 4%3 #the result is the remainder after division
 f = 3**2 #exponent
 
@@ -61,3 +61,38 @@ e = a+b #process the assignment from right to left
 #it means evaluate a+b first, then add the result to the variable
 
 print("The value of e is ", e)
+
+#git config user.name
+#git init
+#git status - which branch you are on and the files not yet committed
+#git add filename or git add * (for all)
+#git commit -m (always add message)
+#git lab, git hub, etc (repositories)
+#git push (add origin / main (branch - cloud -mirror))
+
+#smallest element in a program - statement
+#-> complete instruction to the computer
+#assignment statement = allocates a memory in the computer and has a name, value
+'''#function call:
+#v -4.3 
+#print(v, type(v))
+'''
+
+#add comment (single line)
+'''
+comments - multiline (''' ''')
+'''
+
+
+
+#This is our class 3 (single line comment)
+'''
+multiline comment
+'''
+
+'''
+primitive - included in the language
+eg python: int, boolean, string, float
+
+
+'''
