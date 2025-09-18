@@ -50,6 +50,6 @@ print("Your age is ", 2025 - int(year_of_birth))
 '''
 
 weight_in_kg = int(input("Please enter your weight in Kilograms: "))
-weight_in_lbs = round(weight_in_kg * 2.2,2)
+weight_in_lbs = weight_in_kg * 2.2
 
 print("Your weight in pounds is: ", weight_in_lbs)

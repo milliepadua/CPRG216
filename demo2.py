@@ -114,5 +114,16 @@ eg
 num_as_text="43"
 num_as_num=int(num_as_text)
 
+#if you put any variable in the context of a string - automatically it will be a string
+
+#Using input function, note that input function always return a string (text)
+
+#year_of_birth = int(input("Please enter your year of birth\n"))
+# can also write:  print("Your age is ", 2025 - int(year_of_birth)) without adding int in input line
+#create a program, add input from user, and do a calculation
+
+
+weight_in_kg = int(input("Please enter your weight in Kilograms: "))
+weight_in_lbs = round(weight_in_kg * 2.2,2) #no need to add round for now to round off numbers
 
 '''
