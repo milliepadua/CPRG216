@@ -9,8 +9,8 @@ print(x) #function call
     #has a size
     #has a type (int (<- not a decimal), float)
 
-i = 3 #int integer
-f = 4.5 #float (decimal)
+i = 3 #int integer (4 bytes)
+f = 4.5 #float (decimal) (8 bytes)
 b = True #boolean Boole
 s = "hello" #string - letters; uses double quotes
 msg = 'Hello World!' #single quotes are for single words
@@ -62,13 +62,18 @@ e = a+b #process the assignment from right to left
 
 print("The value of e is ", e)
 
+
+
+
+#18 September 2025
+
 #git config user.name
 #git init
 #git status - which branch you are on and the files not yet committed
 #git add filename or git add * (for all)
 #git commit -m (always add message)
-#git lab, git hub, etc (repositories)
 #git push (add origin / main (branch - cloud -mirror))
+#git lab, git hub, etc (repositories)
 
 #smallest element in a program - statement
 #-> complete instruction to the computer
@@ -93,6 +98,21 @@ multiline comment
 '''
 primitive - included in the language
 eg python: int, boolean, string, float
+string - an array of text (also in C)
+arguments are comma separated
+
+print - sends any command into the output string
+
+casting - changing the type (eg from int to float)/ promoting or demoting
+explicit casting - 
+uses the type as the command / 
+
+some functions call: print, input, int, float, str, bool
+
+string to int
+eg
+num_as_text="43"
+num_as_num=int(num_as_text)
 
 
 '''
