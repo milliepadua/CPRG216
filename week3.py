@@ -37,3 +37,19 @@ num2_i = int(num2)
 num2_as_text = str(num2)
 
 #if you put any variable in the context of a string - automatically it will be a string
+
+#Using input function, note that input function always return a string (text)
+
+year_of_birth = input("Please enter your year of birth\n")
+
+print("Your age is ", 2025 - int(year_of_birth))
+
+
+'''
+#create a program, add input from user, and do a calculation
+'''
+
+weight_in_kg = int(input("Please enter your weight in Kilograms: "))
+weight_in_lbs = round(weight_in_kg * 2.2,2)
+
+print("Your weight in pounds is: ", weight_in_lbs)
