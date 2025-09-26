@@ -126,4 +126,88 @@ num_as_num=int(num_as_text)
 weight_in_kg = int(input("Please enter your weight in Kilograms: "))
 weight_in_lbs = round(weight_in_kg * 2.2,2) #no need to add round for now to round off numbers
 
+
+
+
+print function
+    prints the values to a stream
+    working with a separator
+'''
+
+print("Hello", "world", sep=' ', end=' ')
+print("Hello", "world", sep=' ')
+print("Hello\tworld")
+print("Hello\nworld")
+
+#without separator, it will be a space. This is especially important if you are using ms excel or other tables
+#if you want to combine them together without the space, sep='' ; if you want to add comma , sep=','
+#end : by default: \n <- means next line ; can also add in message  
+# \t = tab
+# \m = 
+#to print a single quote in a text: add \'
+#ex. print("What is the student\'s name?") or print('What is the student\'s name?')
+#to print or include a \ in the text, add another \. example: print('Use this symbol \\ to make an escape character')
+
+
+'''
+precedence rules
+
+
+expression = 3+4*0-300+12/3
+the answer is a float because of division
+
+expression = 4/2*3
+if they have the same rank (multiplication and division, addition and subtraction), start from left to right
+
+
+
+
+More about assignment
+-> reads from right to left (eg x = 5, where you tell the computer to assign 5 to x)
+
+'''
+
+
+expression = 3+4*0-300+12/3
+print(expression)
+
+expression = 4/2*3
+print(expression)
+
+x = 3
+x = x + 5
+
+print(x)
+
+'''
+#can we have a shorthand for this expression?
+# x += 5 (same as x = x + 5)
+# other expressions:
+
+x -= 2 (same as x = x - 3 )
+x *= 3 (same as x = x * 3)
+x /= 2 (same as x = x / 2)
+x **= 4 (same as x = x ** 4)
+'''
+
+x += 5
+print (x)
+
+x -= 2
+print (x)
+
+x *= 3
+print (x)
+
+x /= 2
+print (x)
+
+x **= 4
+print (x)
+
+
+'''
+special value of 1
+
+x += 1 # x = x+1
 '''

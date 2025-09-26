@@ -84,3 +84,20 @@ and the estimated
 
 
 '''
+
+'''
+lifecycle:
+
+
+
+algorithm
+-flowchart and pseudocode
+-if statement and formula
+
+
+function call:
+print
+int (integer) - casting (implicit vs explicit)
+
+
+'''
