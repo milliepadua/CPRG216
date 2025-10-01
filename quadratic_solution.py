@@ -29,8 +29,7 @@ else:
     print("No possible solution")
 
 print(x1, x2)
-'''
-'''
+
 if 4*a*c <= b**2:
     x1 = (-b +((b**2 - 4*a*c))**.05) / (2*a)
     x2 = (-b -((b**2 - 4*a*c))**.05) / (2*a)

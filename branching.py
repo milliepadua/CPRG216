@@ -88,7 +88,7 @@ else
     end
 
 '''
-
+'''
 a = (float(input("Enter first number: ")))
 b = (float(input("Enter second number: ")))
 c = (float(input("Enter third number: ")))
@@ -108,3 +108,4 @@ else:
         x2 = None
     print("No possible solution")
 print(x1,x2)
+'''
