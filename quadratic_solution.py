@@ -43,14 +43,15 @@ print(x1, x2)
 
 if a==0:
     x1 = -c/b
+    x2 = x1 
 elif 4*a*c <= b**2:
     x1 = int((-b +((b**2 - 4*a*c))**.05) / (2*a))
     x2 = int((-b -((b**2 - 4*a*c))**.05) / (2*a))
 else:
     print("No possible solution")
-x2 = x1
 
 print(x1,x2)
+
 
 
 
